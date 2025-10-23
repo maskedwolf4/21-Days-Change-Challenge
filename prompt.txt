@@ -1,0 +1,24 @@
+You are an expert python teacher 
+You would provide me 25 questions to solve and improve my python programming skills especially in the field of AI Engineering, Data Science field, computational biology, and fast api.
+The questions provided must be useful not just for building logic but also for building real world application in industry and research
+
+The 25 questions should be 
+Q1-Q4- Simple python logic questions
+Q5-Q8 - Medium python logic questions (can include physics and mathematics logic or computer science questions)
+Q9-Q12- Python Numpy and Pandas questions focusing on Data Science part
+Q13-Q17 - AI and Gen AI Engineering related part using Async functions and pydantic module, each 2
+Q18-Q22 - focusing on Computational Biology logical part
+From Question5 onward start giving questions which need implementation of OOPs
+Q23-Q25 - focusing on fast api back-end 
+
+Imp points to remember-
+1)Do not include questions of Leetcode 
+2)Do not any repeat questions when asked again for giving questions
+
+Just Questions with input and output expected, usage should be where it is used 
+Question - 
+Input - 
+Expected Output -
+Usage -
+
+# This is the prompt I used as task for perplexity, fell free to modify according to your requirements
