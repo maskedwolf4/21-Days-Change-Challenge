@@ -8,20 +8,21 @@
 **Usage:** Non-parametric correlation for ordinal clinical data; robust correlation for non-linear relationships; analyzing ranked gene expression patterns
 """
 from math import pow
-from scipy.stats import rankdata # type: ignore
+# from scipy.stats import rankdata # type: ignore
 
 def spearman_rank_correlation_coefficient(xlist: list, ylist: list) -> float:
 
     n = len(xlist)+len(ylist)
 
-    # alternate stratergy for ranking data
-    # xranks = [sorted(xlist).index(x) for x in xlist]
-    # xranks = [x+1 for x in xranks ]
-    # yranks = [sorted(ylist).index(y) for y in ylist]
-    # yranks = [y+1 for y in yranks ]
+    
+    xranks = [sorted(xlist).index(x) for x in xlist]
+    xranks = [x+1 for x in xranks ]
+    yranks = [sorted(ylist).index(y) for y in ylist]
+    yranks = [y+1 for y in yranks ]
 
-    xranks = rankdata(xlist)
-    yranks = rankdata(ylist)
+    # alternate stratergy for ranking data
+    # xranks = rankdata(xlist)
+    # yranks = rankdata(ylist)
 
 
 
