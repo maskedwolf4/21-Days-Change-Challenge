@@ -22,4 +22,4 @@ def min_max_scaler(data: list) -> list:
 
     return scaled_data
 
-print(min_max_scaler([10,20,30,40,50]))
+print(min_max_scaler([10,20,30,40,50])) # output: [0.0, 0.25, 0.5, 0.75, 1.0]
